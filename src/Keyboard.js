@@ -4,7 +4,7 @@ import WhiteKeys from "./Whitekeys.js"
 
 const Keyboard = (props) => {
   return(
-    <div >
+    <div id ="keyboard">
       <WhiteKeys />
       <BlackKeys />
     </div>
