@@ -5,27 +5,48 @@
 }
 
 #keyboard {
-  border: solid red 5px;
+  /*border: solid red 5px;*/
   position: relative;
   height: 180px;
 }
 
 #whiteKeys{
-  width: 100vw;
+  /*width: 100vw;*/
   position: absolute;
   display: flex;
   flex-direction: row;
-  /*justify-content: space-around;*/
 }
 
 #blackKeys{
-  width: 100vw;
-  position: absolute;
+  /*width: 100vw;*/
+  /*position: absolute;*/
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
 }
 
+#blackKey1 {
+  background-color: blue;
+  position: absolute;
+  left: 22px
+}
+
+#blackKey2 {
+  background-color: blue;
+  position: absolute;
+  left: 86px
+}
+
+/*#blackKey3 {
+  background-color: blue;
+  position: absolute;
+  left: 100px
+}*/
+
+/*#blackKey4 {
+  background-color: blue;
+  position: relative;
+  left: 80px
+}*/
 
 .whiteKey {
   background-color: white;
