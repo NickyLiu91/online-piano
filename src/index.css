@@ -1,7 +1,11 @@
-.blackKey {
-  background-color: black;
-  width: 5px;
-  height: 20px;
+#blackKeys{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.blackKey {
+  background-color: black;
+  width: 20px;
+  height: 80px;
 }

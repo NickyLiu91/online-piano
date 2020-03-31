@@ -2,7 +2,7 @@ import React from "react";
 
 const Blackkeys = (props) => {
   return(
-    <div >
+    <div id="blackKeys">
       <div id="blackKey1" className="blackKey"> </div>
       <div id="blackKey2" className="blackKey"> </div>
       <div id="blackKey3" className="blackKey"> </div>
