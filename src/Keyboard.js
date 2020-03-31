@@ -1,9 +1,10 @@
 import React from "react";
+import BlackKeys from "./Blackkeys.js"
 
 const Keyboard = (props) => {
   return(
     <div >
-      12345
+      <BlackKeys />
     </div>
   )
 }
